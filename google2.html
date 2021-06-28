@@ -2,23 +2,43 @@
 <html lang="en">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="google2.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <section id="google_search">
-            <img class="google_image" src="googlelogo_color_272x92dp.png" alt="google logo">
-            <div class="bar">
-            <form id="form"> 
-                <input type="search" id="query" name="q" placeholder="Search...">
-              </form>
+        <header id="header">
+            <div class="topnav"></div>
+                <ul>
+                    <li style="float:left"><a class="active" href="about.html">About</a></li>
+                    <li style="float:left"><a class="active" href="store.html">Store</a></li>
+                    <li><a href="signin.html">
+                        <div class="signin-button">
+                            <button id="signin" class="signin-button" type="sign">Sign in</button>
+                        </div>    
+                    </a></li>
+                    <li><a href="apps.html">
+                        <img class="apps_image" src="outline_apps_black_24dp.png" alt="Apps">
+                    </a></li>
+                    <li><a href="images.html">Images</a></li>
+                    <li><a href="gmail.html">Gmail</a></li>
+                </ul>
             </div>
+        </header>
+        <body>
+        <div id="google_search">
+            <img class="google_image" src="googlelogo_color_272x92dp.png" alt="google logo">
+            <div class="searchbar">
+              <img class="search_image" src="outline_search_black_24dp.png" alt="search">
+              <input class="search-input" type="text" name="search">
+          </div>
           <div class="button">
             <button id="googlesearch" class="search-button" type="google">Google Search</button>
             <button id="lucky" class="search-button" type="lucky">I'm feeling Lucky</button>
         </div>  
+        </div>
         </section>
     </body>
 </html>

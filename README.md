@@ -1,1 +1,1 @@
-nothing here yet
+Google-ish page for The Odin Project
