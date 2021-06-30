@@ -11,7 +11,7 @@ html {
     justify-content: center;
     text-align: center;
     height: 200px;
-    margin-top: 12em;
+    margin-top: 7em;
 }
 
 .google_image {
@@ -53,7 +53,6 @@ html {
     width: 35rem;  
     height: 2.5rem;
     padding-left: 3em;
-
 }
 
  .button {
@@ -92,11 +91,13 @@ html {
 
 
  ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     font-size: 14px;
+    align-items: center;
   }
 
   li {
@@ -108,6 +109,39 @@ html {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 0px 0px 10px;
+    margin: 15px 12px 0px 10px;
     text-decoration: none;
   }
+
+  .space {
+      margin: auto;
+  }
+
+  #footer {
+      display: grid;
+      margin:  auto;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+  }
+
+
+  .footnav > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin: auto;
+    padding-top: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    align-items: center;
+    background-color: #f2f2f2;
+  }
+
+  @media (max-width: 30em) {
+    .footnav > ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
