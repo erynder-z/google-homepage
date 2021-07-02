@@ -147,3 +147,10 @@ html {
         justify-content: space-evenly;
     }
 }
+
+@media (max-width: 30em) {
+    .topnav > ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
