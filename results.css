@@ -107,9 +107,33 @@ ul {
 }
 
 .tools {
-    padding-top: 5em;
+    padding: 5em 1em 1em 10em;
 }
 
 p {
-    padding-top: 7em;
+    padding: 1em 0em 0em 10.5em;
 }
+
+h5 {
+    padding: 1em 0em 0em 13em;
+}
+
+
+.tools-section > ul {
+    margin: auto;
+}
+
+.tools-section > ul > li > a > img {
+    height: 20px;
+}
+
+.tools-section > ul >li> a {
+display: flex;
+align-items: center;
+  }
+
+  .space2 {
+      margin-left: 10em;
+  }
+
+
