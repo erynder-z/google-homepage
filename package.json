@@ -1,0 +1,23 @@
+{
+  "name": "google-homepage",
+  "version": "1.0.0",
+  "description": "Google-ish page for The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erynder-z/google-homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erynder-z/google-homepage/issues"
+  },
+  "homepage": "https://github.com/erynder-z/google-homepage#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0"
+  }
+}
